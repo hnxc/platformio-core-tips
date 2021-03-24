@@ -6,7 +6,9 @@ If you want to add date time of compilation like this
 ========= [SUCCESS] Took 24.32 seconds at __ 24/03/2021 11:04:25 __  =========
 ```
 
-Open file at `C:\Users\xxxxx\.platformio\penv\Lib\site-packages\platformio\commands\run\command.py`
+Open file at 
+`C:\Users\xxxxx\.platformio\penv\Lib\site-packages\platformio\commands\run\command.py` (Windows)
+`/home/xxxxx/.platformio/penv/lib/python3.8/site-packages/platformio/commands/run/command.py` (Ubuntu)
 
 Change the function (line 207)
 
